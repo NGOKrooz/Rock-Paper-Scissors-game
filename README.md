@@ -1,6 +1,6 @@
 # Rock-Paper-Scissors-game
 
-Day 7 of #100DaysOfCode
+Day 8 of #100DaysOfCode
 
  GitHub README.md
 markdown
