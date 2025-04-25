@@ -90,3 +90,67 @@ Handling user input and edge cases
 Added the below today:
 🏆 Winner screen after the final round
 - 🔁 Replay option to start a new game session
+
+
+# 🎮 Rock, Paper, Scissors CLI Game (Day 10 & 11)
+
+## 📌 Objective
+Polish the command-line interface (CLI) of the Rock, Paper, Scissors game to be **more interactive, intuitive, and visually engaging**.
+
+---
+
+## ✨ Features Added
+
+### ✅ Core Enhancements
+- **Stylish CLI Output:** Integrated `colorama` for colorful terminal messages.
+- **User Personalization:** Added player name input with title casing.
+- **Robust Input Handling:** Accepts and cleans up all uppercase/lowercase inputs and extra whitespace.
+- **Game Stats Tracker:**
+  - Total rounds
+  - Wins
+  - Losses
+  - Ties
+  - Win rate percentage
+
+### 🎨 UI & UX Upgrades
+- **Round Countdown:** Adds suspense with a 3-2-1 countdown before each round.
+- **Visuals with Emojis & ASCII Art:** 
+  - Rock 🪨  
+  - Paper 📄  
+  - Scissors ✂️  
+- **Game Flow Clarity:** Display round numbers, stylish separators, and game over messages.
+
+### 🧼 Code Refactor
+- Modularized with reusable functions:
+  - `get_player_choice()`
+  - `countdown()`
+  - `display_ascii()`
+  - `print_separator()`
+
+---
+
+## 🧠 Lessons Learned
+- How to refactor repetitive logic into clean functions
+- CLI game design and player experience principles
+- How to use colors and visuals to make CLI apps engaging
+- Calculating real-time stats (win rate) in a loop
+- Bonus: ASCII art rendering in Python 🐍
+
+---
+
+## 🔁 How to Play
+1. Run the script.
+2. Input your name.
+3. Choose between Rock, Paper, or Scissors each round.
+4. First to 3 wins the crown 👑
+5. Stats are displayed at the end. Play again if you like!
+
+---
+
+## 🛠 Tech Used
+- Python 3
+- `colorama` library
+
+---
+
+## 📸 Sneak Peek
